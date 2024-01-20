@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:river_pod/Screens/number_notifier.dart';
 import 'package:river_pod/Screens/selected_button.dart';
 import 'package:river_pod/home_page.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.cyan,
         useMaterial3: true,
       ),
-      home:  const SelectedButton(),
+      home:  const NumberPage(),
     );
   }
 }
